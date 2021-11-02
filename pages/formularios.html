@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="shortcut icon"
+            href="../img/favicon.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="../css/style.css" />
+        <title>Inicio</title>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="container-header-footer">
+            <div class="caja caja-logo">
+                <div class="caja caja-imagenes">
+                    <img class="" src="../img/logo.png" alt="logo" />
+                </div>
+                <h1 class="texto-logo">
+                    Pagina
+                    <span class="texto-logo2">Web</span>
+                </h1>
+            </div>
+            <nav class="caja">
+                <ul class="menu">
+                    <li>
+                        <!--  la clase para el hover -->
+                        <a class="boton" href="../index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a class="boton" href="../pages/imagen.html"
+                            >Imagenes</a
+                        >
+                    </li>
+                    <li>
+                        <a class="boton" href="../pages/video.html">Videos</a>
+                    </li>
+                    <li>
+                        <a class="boton" href="../pages/empleados.html"
+                            >Empleados</a
+                        >
+                    </li>
+                    <li>
+                        <a class="boton" href="../pages/formularios.html"
+                            >Contactenos</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Main -->
+        <main>
+          <h1>Contactenos</h1>
+            <section class="container-form">
+                <form class="formularios" action="" method="post">
+                        <div>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" name="nombre" id="nombre" />
+                        </div>
+                        <br />
+                        <div>
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" name="apellido" id="apellido" />
+                        </div>
+                        <br />
+                        <div>
+                            <label for="email"><span class="transparente">....</span>Email:</label>
+                            <input type="email" name="email" id="email" />
+                        </div>
+                        <br />
+                        <div>Estado Civil:</div>
+                        <select name="estadoCivil" id="estadoCivil">
+                            <option value="1">Soltero/a</option>
+                            <option value="2">Casado/a</option>
+                            <option value="3">Viudo/a</option>
+                        </select>
+                        <br />
+                        <br />
+                        <label for="comentario"
+                            >Desea recibir el newlestter?</label
+                        >
+                        <br />
+                        <textarea
+                            name="comentario"
+                            id="comentario"
+                            cols="30"
+                            rows="10"
+                        ></textarea>
+                        <br />
+                        <br />
+                        <input type="submit" value="Enviar Formulario" />
+                        <input type="reset" value="Resetear" />
+                </form>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer class="container-header-footer">
+          <div class="caja">
+              <h1>Copyright 2021 Agustin Fariña</h1>
+          </div>
+          <div class="caja caja-footer">
+              <nav>
+                  <ul class="menu">
+                    <li><a href="https://www.linkedin.com/">Linkedin</a></li>
+                    <li><a href="https://twitter.com/">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                  </ul>
+              </nav>
+          </div>
+      </footer>
+  </html>  

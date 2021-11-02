@@ -1,3 +1,222 @@
-.rojo{
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@media (max-width: 768px) {
+    .texto-logo {
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+body {
+    height: 100%;
+    background-color: #d95100;
+    font-family: "Roboto", sans-serif; /* fuente de la pagina */
+}
+
+.container-header-footer {
+    width: 100%; /* Todo el ancho de la pag /*
+    height: 60px; /* 75 o 100 queda bien*/
+    display: flex;
+    flex: 0 1 100px;
+    flex-wrap: wrap;
+    flex-direction: row; /* tambien esta column */
+    justify-content: space-between; /* como se van a acomodar (space-around) */
+    align-items: center; /* acomodar segun el tamaño de las cajas*/
+}
+
+.caja {
+    margin: 10px;
+    background-color: transparent;
+}
+
+.parrafo {
+    color: black;
+    font-family: "Roboto", sans-serif; /* fuente */
+    line-height: 20px; /* Enterlineado*/
+    font-size: 2rem; /* tamaño */
+    background-color: transparent;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+img {
+    max-width: 100%;
+    border: 1px solid black;
+}
+
+.div-imagen {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.boton:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    border-radius: 50px;
+}
+
+/* Cambio de diseño en dos partes*/
+.texto-logo2 {
+    -webkit-text-stroke: 1px black;
+    color: white;
+}
+
+label {
+    padding: 10px;
+}
+
+input {
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* HEADER */
+
+header {
+    background-color: lightblue;
+    border-bottom: 1px solid black;
+}
+
+.caja-logo {
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.texto-logo {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.caja-imagenes {
+    height: 40px;
+    width: 40px;
+}
+
+nav {
+    min-width: 41%;
+    min-height: 50%;
+}
+
+/* El menu lo use en el header y en el footer*/
+
+.menu {
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.menu li {
+    display: inline;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.boton {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem; /* lo aplica el footer tambien */
+}
+
+/* MAIN*/
+
+main {
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+.ajuste-imagen {
+    height: 400px;
+    width: 300px;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: row; /* tambien esta column */
+    align-items: center; /* acomodar segun el tamaño de las cajas*/
+    display: flex;
+    flex: 0 1 300px;
+    flex-wrap: wrap;
+}
+
+.container-main-imagenes {
+    width: 100%; /* Todo el ancho de la pag */
+    justify-content: center; /* como se van a acomodar (space-around) */
+}
+
+.container-main-videos {
+    width: 100%; /* Todo el ancho de la pag */
+    justify-content: center; /* como se van a acomodar (space-around) */
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-item {
+    padding: 20px;
+    min-height: 200px;
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    background-color: rgb(255, 187, 40);
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.transparente {
+    color: transparent;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: lightgray;
+    border-top: 1px solid black;
+}
+
+.caja-footer {
+    min-height: 50%;
 }
