@@ -1,0 +1,17 @@
+$colores: (
+    color-body-footer : #caf0f8,
+    color-header:#0096c7,
+    color-main: #90e0ef
+);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    border: 1px solid gray;
+}

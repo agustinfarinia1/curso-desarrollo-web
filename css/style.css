@@ -1,84 +1,72 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    height: 100%;
-    background-color: #caf0f8;
-    font-family: "Roboto", sans-serif; /* fuente de la pagina */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 img {
-    max-width: 100%;
-    border: 1px solid black;
+  max-width: 100%;
+  border: 1px solid gray;
 }
 
-/* clase bootstrap */
-
-.div-imagen {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
+body {
+  height: 100%;
+  background-color: #caf0f8;
+  font-family: "Roboto", sans-serif;
+  /* fuente de la pagina */
 }
 
-.transparente {
-    color: transparent;
+.texto-header {
+  color: white;
 }
 
-
-
-/* HEADER */
-
-
-.texto-nav-header{
-    /*color: black;*/
-    color: white;
+.texto-header:hover {
+  color: lightgray;
 }
 
-.texto-nav-header:hover{
-    color: lightgray;
+.fondo-header {
+  background-color: #0096c7;
 }
 
-/* no los aplico directamente en la etiqueta porque son 2 juntas*/
-
-.fondo-header{
-    background-color: #0096c7;
+.fondo-footer {
+  background-color: #caf0f8;
 }
-.fondo-footer{
-    background-color: #caf0f8;
-}
-
-/* MAIN*/
 
 main {
-    background-color: #90e0ef;;
-}
-
-.ajuste-imagen {
-    height: 400px;
-    width: 300px;
+  background-color: #90e0ef;
 }
 
 .container-main {
-    display: flex;
-    flex-direction: row; /* tambien esta column */
-    align-items: center; /* acomodar segun el tamaño de las cajas*/
-    display: flex;
-    flex: 0 1 300px;
-    flex-wrap: wrap;
-}
-
-.container-multimedia {
-    width: 100%; /* Todo el ancho de la pag */
-    justify-content: center; /* como se van a acomodar (space-around) */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  flex: 0 1 300px;
+  flex-wrap: wrap;
 }
 
 form {
-    justify-content: center;
-    background-color: #48cae4;
-    width: 400px;
-    border: 1px solid black;
-    border-radius: 10px;
+  justify-content: center;
+  background-color: #48cae4;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
+
+.div-imagen {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.container-multimedia {
+  width: 100%;
+  justify-content: center;
+}
+
+.ajuste-imagen {
+  height: 400px;
+  width: 300px;
+}
+
+/*# sourceMappingURL=style.css.map */
