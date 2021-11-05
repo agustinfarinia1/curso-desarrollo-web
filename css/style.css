@@ -70,12 +70,7 @@ main {
     flex-wrap: wrap;
 }
 
-.container-main-imagenes {
-    width: 100%; /* Todo el ancho de la pag */
-    justify-content: center; /* como se van a acomodar (space-around) */
-}
-
-.container-main-videos {
+.container-multimedia {
     width: 100%; /* Todo el ancho de la pag */
     justify-content: center; /* como se van a acomodar (space-around) */
 }
