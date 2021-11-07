@@ -2,13 +2,17 @@ main {
     background-color: map-get($colores, color-main);
 }
 
-.container-main {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    display: flex;
-    flex: 0 1 300px;
-    flex-wrap: wrap;
+.center {
+    position: flex;
+    text-align: center;
+}
+
+.div-ul-main {
+    width: 150px;
+
+    ul{
+        text-align: left; list-style: outside;
+    }
 }
 
 form {
@@ -17,4 +21,18 @@ form {
     width: 400px;
     border: 1px solid black;
     border-radius: 10px;
+}
+
+.mapouter {
+    position: flex;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 300px;
+    width: 100px;
 }
