@@ -2,12 +2,8 @@
 $color-texto-header:white;
 $color-texto-header-hover:lightgray;
 
-.header{
-    width: 100%;
-}
-
-.navbar{
-    width: 100%;
+header{
+    max-width: 100%;
 }
 
 .texto-header{

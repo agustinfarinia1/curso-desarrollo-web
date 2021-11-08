@@ -11,6 +11,21 @@ $colores: (
     box-sizing: border-box;
 }
 
+@media only screen and (min-width: 2500px) {
+
+    header{
+        font-size: 2rem;
+    }
+
+    main {
+        font-size: 2rem;
+    }
+
+    footer{
+        font-size: 2rem;
+    }
+  }
+
 img{
     max-width: 100%;
     border: 1px solid gray;

@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+@media only screen and (min-width: 2500px) {
+  header {
+    font-size: 2rem;
+  }
+
+  main {
+    font-size: 2rem;
+  }
+
+  footer {
+    font-size: 2rem;
+  }
+}
 img {
   max-width: 100%;
   border: 1px solid gray;
@@ -14,10 +27,15 @@ img {
 }
 
 body {
+  max-width: 100%;
   height: 100%;
   background-color: #caf0f8;
   font-family: "Roboto", sans-serif;
   /* fuente de la pagina */
+}
+
+header {
+  max-width: 100%;
 }
 
 .texto-header {
@@ -38,11 +56,20 @@ body {
 
 main {
   background-color: #90e0ef;
+  display: flex;
+  flex-direction: column;
 }
 
 .center {
   position: flex;
   text-align: center;
+}
+
+.contenedor-ajustado {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .div-ul-main {
@@ -59,20 +86,6 @@ form {
   width: 400px;
   border: 1px solid black;
   border-radius: 10px;
-}
-
-.mapouter {
-  position: flex;
-  text-align: center;
-  height: 300px;
-  width: 100%;
-}
-
-.gmap_canvas {
-  overflow: hidden;
-  background: none !important;
-  height: 300px;
-  width: 100px;
 }
 
 .div-imagen {
@@ -104,8 +117,11 @@ form {
 }
 
 .ajuste-mapa {
+  max-width: 700px;
+  max-height: 300px;
+  margin: auto;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .card {
