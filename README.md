@@ -13,5 +13,3 @@ Pagina de la reserva animal y vegetal Laguna de los Padres, Situada a 12 kilóme
 - Etiqueta `<meta>` para agregar palabras clave.
 - Un solo `<h1>` con el titulo principal del sitio.
 - Comprimir las imagenes para reducir el tamaño y el gasto de carga.
-
-Pagina de la reserva animal y vegetal Laguna de los Padres, Situada a 12 kilómetros al oeste de Mar del Plata
