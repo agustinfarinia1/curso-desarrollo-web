@@ -3,6 +3,8 @@ Proyecto realizado durante el curso.
 
 Pagina de la reserva animal y vegetal Laguna de los Padres, Situada a 12 kilómetros al oeste de Mar del Plata.
 
+[Link al proyecto](https://agustinfarinia1.github.io/curso-desarrollo-web/)
+
   SEO de la pagina:
   
 - Se utilizaron las etiquetas correspondientes:
@@ -13,5 +15,3 @@ Pagina de la reserva animal y vegetal Laguna de los Padres, Situada a 12 kilóme
 - Comprimir las imagenes para reducir el tamaño y el gasto de carga.
 
 Pagina de la reserva animal y vegetal Laguna de los Padres, Situada a 12 kilómetros al oeste de Mar del Plata
-
-[Link al proyecto](https://agustinfarinia1.github.io/curso-desarrollo-web/)
