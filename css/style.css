@@ -72,10 +72,14 @@ main {
   flex-direction: column;
 }
 
-.div-ul-main {
-  width: 150px;
+.contenedor-ul-main {
+  max-width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.div-ul-main ul {
+.contenedor-ul-main .list-inline li {
   text-align: left;
   list-style: outside;
 }
