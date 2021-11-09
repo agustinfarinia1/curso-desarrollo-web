@@ -1,8 +1,9 @@
 # Curso de Desarrollo web de la plataforma [Coderhouse](https://www.coderhouse.com/).
-Proyecto realizado durante el curso.
+Proyecto realizado durante el curso. 
 
-SEO
+Pagina de la reserva animal y vegetal Laguna de los Padres, Situada a 12 kilómetros al oeste de Mar del Plata.
 
+  SEO
 - Se utilizaron las etiquetas correspondientes:
 `<header>`,`<nav>`,`<main>`,`<section>` y `<footer>`
 - Se define el lenguaje de la página en español.
