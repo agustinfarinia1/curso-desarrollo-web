@@ -84,10 +84,17 @@ main {
   list-style: outside;
 }
 
+.div-inputs {
+  max-width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
 form {
   justify-content: center;
   background-color: #48cae4;
-  width: 400px;
+  max-width: 500px;
   border: 1px solid black;
   border-radius: 10px;
 }
